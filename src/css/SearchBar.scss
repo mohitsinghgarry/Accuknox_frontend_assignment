@@ -1,0 +1,15 @@
+    .input-searchbar{
+        height: 2rem;
+        font-style: italic;
+        width: 10rem;
+        padding-left: 1rem;
+        background-color: white; 
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        // background-color: rgba($color: #wqhi, $alpha: 1.0);
+        font-size: medium;
+        &::placeholder{
+            color: black;
+        }
+    }

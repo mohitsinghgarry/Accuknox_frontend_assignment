@@ -1,0 +1,176 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.category {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid gray;
+  padding-left: 2rem;
+  margin: 2rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+/* Container for widgets and button */
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid gray;
+  background-color: #fafafa;
+  border-radius: 3rem;
+  max-width: calc(44% - 20px);
+}
+
+/* Styling for the Add Widget button */
+.add-widget-button {
+  align-self: flex-start; /* Align the button to the start of the container */
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: .5s ease-in; /* Prevent button text from wrapping */
+}
+
+.add-widget-button:hover {
+  background-color: black;
+}
+
+/* Ensure the button sticks to the right */
+.widget-container::after {
+  content: '';
+  flex: 1 1 100%; /* Take up full width */
+}
+
+button {
+  margin: 10px 5px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: .4s ease-in ;
+  background-color: black;
+}
+
+.modal {
+  transition: .4s ease-in;
+  backdrop-filter: blur(5px); 
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 30px;
+  width: 300px;
+  
+}
+
+/* Flexbox for Category and Widgets Layout */
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+/* src/styles.css */
+.temp{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: end;
+}
+
+.edit{
+  margin: 2px 5px 0 0;
+  padding: 18px;
+}
+
+label {
+  margin: 10px;
+  display: block;
+}
+
+.cancel:hover{
+  transition: all .4 ease-in;
+    color: red;
+}
+.input-new-new{
+  font-weight: bold;
+  padding-left: 5px;
+  width: 95%;
+  height: 2.5rem;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.select-one{
+  width: 98%;
+  height:2.5rem;
+  margin: .5rem;
+  border: 2px solid gray;
+  font-weight: bold;
+  color: gray;
+  border-radius: 5px;
+}
+
+
+
