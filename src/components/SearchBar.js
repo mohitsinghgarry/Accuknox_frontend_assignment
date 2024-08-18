@@ -2,8 +2,6 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { searchWidget } from '../redux/actions';
 import '../css/SearchBar.scss'
-import { IoSearchCircle } from "react-icons/io5";
-
 const SearchBar = () => {
   const dispatch = useDispatch();
 
