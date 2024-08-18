@@ -45,7 +45,7 @@ To get started with Dashboard Central, follow these steps:
 1. **Clone the Repository:**
    - Clone this repository to your local machine using the command:
      ```bash
-     git clone https://github.com/yourusername/dashboard-central.git
+     git clone https://github.com/mohitsinghgarry/Accuknox_frontend_assignment.git
      ```
    
 2. **Install Dependencies:**
